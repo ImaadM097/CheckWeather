@@ -1,0 +1,60 @@
+.body{
+    background-color: #212426;
+}
+
+.main-div{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: #212426;
+    flex-direction: column;
+    
+    
+}
+input {
+    text-align: right;
+}
+h1{
+    height: fit-content;
+    width: fit-content;
+    color: aliceblue;
+    padding: 5vh;
+}
+h2 {
+    height: fit-content;
+    width: fit-content;
+    color: aliceblue;
+    padding-bottom: 5vh;
+}
+.heading{
+    height: fit-content;
+    width: fit-content;
+}
+.container {
+   padding: 10px;
+}
+#btn_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#wrong-input{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#correct-input, #wrong-input,#city{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px;
+}
+h4{
+    height: fit-content;
+    width: fit-content;
+    color: aliceblue;
+    padding-bottom: 5vh;
+    padding-right: 10px;
+}
